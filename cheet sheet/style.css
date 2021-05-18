@@ -1,0 +1,161 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Potta One', cursive;
+}
+::selection{
+  background:yellow;
+  color:red;
+}
+
+body {
+    display: inline-flex;
+    position:block;
+}
+
+@media  screen only (min-375)and (max-768){
+  .container{
+    width:100vw;
+    padding:32px 0px;
+    margin:auto;
+  }
+}
+
+
+
+.navbar {
+    background: #272822;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+  background: #272822;
+  display: flex;
+  flex:wrap;
+align-items: center;
+justify-content:center;
+top: 0px;
+}
+
+/* Navigation Bar: Logo and Image */
+/* #logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 1.5rem;
+    width:2rem;
+    margin: 3px 6px;
+} */
+
+
+/* Navigation Bar: List Styling */
+
+ .navbar ul{
+    display: flex;
+    flex-direction:row;
+}
+
+.navbar ul li{
+    font-size: 1.2em;
+}
+
+.navbar ul li a{
+    color: white;
+    display:block;
+    padding: 4px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+ .navbar a:hover{
+    color:black;
+    background-color: white;
+    border-radius:8px;
+}
+
+/* .navbar a::actived{
+  color:yellow;
+  background-color: black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/*
+.btn{
+  color:white;
+  display: flex;
+align-items: right;
+justify-content:right;
+  border:2px solid white;
+  border-radius:12px;
+
+}
+
+.btn:hover{
+color: black;
+background-color: white;
+} */
+
+
+/* .list{
+  text-decoration:none;
+  margin:10px 14px;
+} */
+
+
+/* .list{
+  text-decoration:none;
+} */
+
+.container{
+  width:60vw;
+  padding:32px 0px;
+  margin:auto;
+}
+
+
+.toolbar-item button{
+  cursor:pointer !important;
+  background-color: #ff9970!important;
+  border: none!important;
+  border-radius: .5em!important;
+  color:#1f2330!important;
+  font-size: 1em!important;
+  font-weight: 600!important;
+
+
+
+
+  /* color:white !important; */
+  /* border:1px solid white !important;
+  border-radius:15px !important;
+  padding:5px 14px !important; */
+}
